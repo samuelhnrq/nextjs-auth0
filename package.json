@@ -19,7 +19,7 @@
     "test": "jest --coverage --forceExit --maxWorkers=10",
     "test:watch": "jest --coverage --watch",
     "prepublishOnly": "npm test && npm run lint",
-    "prepublish": "npm run build"
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
